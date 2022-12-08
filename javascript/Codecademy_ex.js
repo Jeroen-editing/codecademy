@@ -1,3 +1,4 @@
+/*
 // typof and combinig 
 var tekst = 'I am number: ';
 let nr = 3;
@@ -195,8 +196,8 @@ console.log(condiments);
 utensils[3] = 'Spoon';
 console.log(utensils);
 
-/*  utensils = ['Spoon'];
-    console.log(utensils);  ---> doesn't work for a const */
+// utensils = ['Spoon'];
+//  console.log(utensils);  ---> doesn't work for a const
 
 
 // the .length property from string also works fro arrays (method?)
@@ -295,8 +296,8 @@ for (let i = 0; i < vacationSpots.length; i++)  {
 };
 
 
-/* nested loops
-example         */
+// nested loops
+//example
 const myArray = [6, 19, 20];
 const yourArray = [19, 81, 2];
 for (let i = 0; i < myArray.length; i++) {
@@ -348,8 +349,8 @@ const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
 for (let i = 0; i < rapperArray.length; i++) {
     console.log(rapperArray[i]);
 }   // prints all array itmes
-    /* if there's a single quote character in your string, you can use double
-        quotes around the string to make sure it prints !!!  */
+    // if there's a single quote character in your string, you can use double
+    //   quotes around the string to make sure it prints !!!
 for (let i = 0; i < rapperArray.length; i++) {
     if (i > 2) {
         break;
@@ -710,18 +711,19 @@ for (let crewRoles in spaceship.crew) {
     ${spaceship.crew[crewRoles].name}`)
 };
     
-/*  for (let crewMember in spaceship.crew) {
-    console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`)
-    };                                                                     */
+//  for (let crewMember in spaceship.crew) {
+//    console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`)
+//   };                                                                     
 
 for (let crewDegrees in spaceship.crew) {
     console.log(`${spaceship.crew[crewDegrees].name}:
     ${spaceship.crew[crewDegrees].degree}`)
 };
     
-/*  for (let crewMember in spaceship.crew) {
-    console.log(`${spaceship.crew[crewMember].name}: 
-    ${spaceship.crew[crewMember].degree}`)
-    };                                                                      */
+//  for (let crewMember in spaceship.crew) {
+//   console.log(`${spaceship.crew[crewMember].name}: 
+//  ${spaceship.crew[crewMember].degree}`)
+//    };
+*/
     
     
