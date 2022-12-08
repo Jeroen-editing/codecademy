@@ -1,3 +1,5 @@
+let output_text = document.getElementById('output_two');
+let output;
 /*
 // typof and combinig 
 var tekst = 'I am number: ';
@@ -724,6 +726,45 @@ for (let crewDegrees in spaceship.crew) {
 //   console.log(`${spaceship.crew[crewMember].name}: 
 //  ${spaceship.crew[crewMember].degree}`)
 //    };
+
+    
+// today's temperature in kelvin
+const kelvin = 255.5;
+// celcius temp is 273 degrees less
+let celcius =  kelvin - 273;
+// the equation to calculate fahrenheit from celcius
+let fahrenheit = celcius * (9/5) + 32;
+// covert the decimal outcome to a round number
+fahrenheit = Math.floor(fahrenheit);
+
+console.log('The temperature is ' + fahrenheit + ' degrees Fahrenheit.');
+
+// the equation to calculate newton from celcius
+// covert the decimal outcome to a round number
+let newton = Math.floor(celcius * (33/100));
+
+console.log('The temperature is ' + newton + ' degrees Newton.');   
 */
-    
-    
+
+// this is my age
+const myAge = 45;
+// this are the early 2 years of a dog's life
+let earlyYears = 2;
+earlyYears *= 10.5
+// my age - first 2 years (early years for a dog)
+let lateryears = myAge - 2;
+// count the later years for a dog 
+lateryears *= 4;
+console.log(earlyYears, lateryears);
+// total dog years = . early + later
+let myAgeInDogYears = earlyYears + lateryears;
+// enter my name and tranform input to lowercase
+let myName = 'Jeroen De Vos'.toLowerCase();
+console.log(myName);
+// log the output with my name, my age and the dog years
+output = `My name is ${myName}. I'm ${myAge} years old 
+in human years, which is ${myAgeInDogYears} years old in dog years.`
+console.log(output);
+
+
+output_text.innerText = output;
